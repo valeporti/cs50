@@ -8,6 +8,8 @@ Harvard: [`https://cs50.harvard.edu/`](https://cs50.harvard.edu/)
 
 Edx: [`https://www.edx.org/course/introduction-computer-science-harvardx-cs50x`](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)
 
+[**Check Certificate**](https://courses.edx.org/certificates/1fe3bc4a26ef40ca84be1cca1ad877f2)
+
 ## Content: 
 pset 1 until pset 6, are projects using C programming language
 
