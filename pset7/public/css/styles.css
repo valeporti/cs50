@@ -1,0 +1,96 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top
+{
+    /* surround with whitespace */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#top .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+#table_port
+{
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 2px 3px #BBB;
+    border: 1px solid black;
+    border-bottom: 1px solid #BBB;
+    border-spacing: 10px;
+}
+
+#elem_table_port
+{
+    border: 1px solid white;
+    background-color: gray;
+    color: white;
+    
+}
+
+#each_cell
+{
+    width: 70%;
+}
+
+#curr_cash
+{
+    font-family: Arial;
+    display: inline-block;
+    text-align: center;
+}
+
+.barChart {
+    background-color: gray;
+    border: solid;
+    border-color: black;
+    margin: 4px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}

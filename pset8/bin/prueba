@@ -1,0 +1,55 @@
+#!/usr/bin/env php
+<?php 
+
+/*
+    This program, when called from the command-line,
+    takes a GeoNames text file as it's sole argument
+    checks that the file exists and is readable,
+    and opens the file. Once open it processes that csv 
+    parsing it row by row and adds the data to the database 
+    table "places" via an insert statement.
+*/
+    
+    require("../includes/config.php");
+    
+    //var_dump($argv);
+    //var_dump(isset($argv));
+    //con estos dos comandos ya sabmeos que argv(0) sería la ejecucuoón del programaa : "/.prueba"
+    
+    if ($argc != 2)
+    {
+        print("There's no origin file");
+        return 1;
+    }
+
+    if (!is_readable($argv[1]))
+    {
+        print("File " . $argv[1] . " doesn't exists");
+        return 2;
+    }
+        
+    $file = fopen($argv[1], "r");
+    
+    $lulu = 0;
+    //$loli = 0;
+    
+    //while ($loli < 8)
+    //{
+        while (($data = fgetcsv($file, 1000, "\t")) !== false) //&& $lulu < 12)
+        {
+ 
+            $num = count($data);
+            
+            //print($data[$lulu] . " cantidad de data " . $num . "\n");
+            $lulu = $lulu + 1;
+            
+            for($c=0; $c < $num; $c ++)
+            {
+                print($data[$c] . " ");
+            }
+            print("\n");
+        }
+        //$loli = $loli + 1;
+    //}
+    
+?>
