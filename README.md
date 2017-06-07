@@ -17,7 +17,7 @@ pset 7, 8, and final project are projects using **PHP**, **CSS**, **JavaScript**
 
 To see my pset 7 Version, please see the [**video**](https://youtu.be/cLSDylyk2MI). (spanish)
 
-To see my pset 7 Version, please see the [**video**](https://youtu.be/p1TmkL_FyP0). (spanish)
+To see my pset 8 Version, please see the [**video**](https://youtu.be/p1TmkL_FyP0). (spanish)
 
 To see my **final project**, please see the [**video**](https://youtu.be/2zWBjwMZssI)
 
