@@ -13,7 +13,7 @@ Edx: [`https://www.edx.org/course/introduction-computer-science-harvardx-cs50x`]
 ## Content: 
 pset 1 until pset 6, are projects using **C** programming language
 
-pset 7, 8, and final project are projects using **PHP**, **CSS**, **JavaScript**, **JQuery**, **HTML**.
+pset 7, 8, and final project are projects using **PHP**, **CSS**, **JavaScript**, **HTML**.
 
 To see my pset 7 Version, please see the [**video**](https://youtu.be/cLSDylyk2MI). (spanish)
 
