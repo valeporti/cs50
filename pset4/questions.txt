@@ -1,0 +1,20 @@
+0.  JPEG supports 4.2 billion colors, GIF supports 256 colors, PNG supports 16.7 million colors and BMP supports 16.7 million colors. 
+1.  GIF
+2.  Lossy compression means that each time that a file is compressed, some image information will be lost. Lossless means that it will maintain all its information even if compressed.
+3.  JPEG
+4.  When a file is deleted on a FAT files system, the system modifies the file name first charater indicating that the file has been deleted and that the directory entry can be recycled.
+And, the system puts the clusters used by this file in the list of free clusters.
+5.  "Sanitizing through erasing" - we can do that by overwriting information in all the hard drive, we can fill it with ASCII NUL Bytes.
+6.  "stdint.h" is a library that contains definitions for different definitions for specific lenghts of variables to make an easy portability between platforms.
+7.  to facilitate portability
+8.  Byte - 1 byte, DWORD - 4 bytes, LONG - 4 bytes and WORD - 2 bytes.
+9.  First 2 bytes in a BMP file: Type of file (BMP or GIFF...)
+10. "bfSize" is a type of variable concerning the BITMAPFILEHEADER and "biSize" concernig the BITMAPINFOHEADER, both same size.
+11. If "biHeight" is negative, it means that the file is readed from top to end.
+12. "biCompression" specifies the BMP's color depth (bits per pixel)
+13. "fopen" might return NULL in copy.c:37 if it already exists a file with the same name and type
+14. "fread" is always 1 because we are only reading and storing one element, the whole BITMAPFILEHEADER or the whole BITMAPINFOHEADER
+15. if "bi.Widt" is 3, "copy.c:70" assign 0 to "padding"
+16. "fseek" puts the "fp" pointer into a location we indicate, according to the offset we indicate 
+17. "Seek_cur" indicates that we want to move starting froma the current location of the pointer
+18. Rick Astley

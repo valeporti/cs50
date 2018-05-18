@@ -1,0 +1,19 @@
+0.  pneumonoultramicroscopicsilicovolcanoconiosis - Refers to a lung disease that is otherwise known as silicosi (the longest word in the english dictionary)
+1.  getrusage() - Returns resource usage measures for who (the calling process)
+2.  16 members are in a variable of type "struct rusage"
+3.  Given that you would have the same result passing "before" and "after" by value instead that by reference, I imagine it's an issue of memory, 
+    so it would be in order to optimize the use of memory
+4.  Function For Loop works reading each character until it reaches the end of file. During each read it analyses 3 things:
+    The first one is when the characters are all letters (or an apostrophe) which the program stores in an array called "word" for further study, checking that the largest word is no more than 45 characters
+    The second one is when it detects if a char is a number or if an array of chars making part of a word have a number and just ignore the whole word by starting with the next word
+    The third one is when it doesn't recognizes the char as alphabetical or as a digit which may be the end of a word. With this, there's an increment of the word counter
+5.  The problem of using fscanf in the place of fgetc is that it wouldn't recognize when there's a number in a word, it just cares about white space
+6.  I think that you declared "check" and "load" as constants because you didn't wanted the value to change even accdentally all along the use of the function
+7.  The data structure that I used was a combination between hash tables and tries because I thought it would be faster. 
+    The trie creates a 3 branches lenght trie using the first 3 letters of a word and a simple hash function, so, for "aab" it would go root[0]->next[0]->next[1] and for just "a" it would go root[0]->next[0]->next[0] because it repeats the code of the last letter if the word isn't lasger than 3 charcaters
+    After the trie is created, the words are ordered in that branch in order of appearance using a double linked list, so for "aaa" its linked to root[0]->next[0]->next[0]->dll[0]
+    So, for all words having a [0,0,0] key they are linked as a double linked list in the end of [0,0,0] branch such as "aaa", "a", "aaab".
+    An important thig to understand is that trie has 2 pointers: one for the trie and the other when needed to point to a double linked list
+8.  well, its slower than the staff's code in general, even though when unloading it may be faster.
+9.  I did't do any changes, not yet but when I do them (for curiosity) I would reduce tre trie structure, reduce the quantity of trie* variables used, and maybe change the design in order to make it "cooler".
+10. Now it just may seem very large (my code) and maybe it's a way to make it better, but I don't thik there are bottlenecks, maybe at the beginning when I was trying to understand tries and pointers but I used a different file to practice.

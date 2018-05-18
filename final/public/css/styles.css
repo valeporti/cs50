@@ -1,0 +1,427 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top
+{
+    /* surround with whitespace */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#top .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+#table_port
+{
+    /* display: inline-block; */
+    text-align: center;
+    /* box-shadow: 0px 2px 3px #BBB; */
+    border: 1px solid black;
+    border-bottom: 1px solid #BBB;
+    border-spacing: 10px;
+    margin: auto;
+    width: 100%;
+}
+
+.elem_table_port
+{
+    border: 1px solid white;
+    background-color: #056571;
+    color: white;
+    padding: 10px 0 0 0;
+    margin: 10px 0 0 0;
+    height: 30px;
+}
+
+#each_cell
+{
+    width: 70%;
+}
+
+#curr_cash
+{
+    font-family: Arial;
+    display: inline-block;
+    text-align: center;
+}
+
+.recetas {
+    width: 50%;
+    margin: auto;
+}
+
+    /* https://designschool.canva.com/blog/website-color-schemes/ */
+.secMenu {
+    background-color: #414141;
+    margin: 10px 10px; 
+    color: white;
+    padding: 1px 0 0 0;
+    border-style: solid;
+    border-color: #CCDFCB;
+    box-shadow: 0px 2px 3px #BBB;
+    display: inline-block;
+}
+.unifMenu {
+    width: 30%;
+}
+
+.btnPush {
+    width: 80%;
+    margin: 2px 5px 5px 5px; /* aqui es este margin el que decide el tamaño del parent */
+    background: #CFCFC4;
+    color: #414141;
+    font-weight: bold;
+    box-shadow: 0 2px gray;
+    position: relative;
+}
+
+.btnPush:active {
+  /* background-color: darkslategray; */
+  box-shadow: 0 2px gray;
+  transform: translateY(2px);
+}
+.precio {
+    width: 40%;
+    margin: 1px 5px 1px 5px;
+}
+
+.inputDiv {
+    background-color: #414141;
+    margin: 10px auto auto auto; 
+    color: white;
+    padding: 1px 0 0 0;
+    border-style: solid;
+    border-color: #CCDFCB;
+    box-shadow: 0px 2px 3px #BBB;
+    display: inline-block;
+}
+#newRecDiv {
+    background-color: #FF6A5C;
+}
+.inputCarr {
+    width: 97%;
+    height: 29px;
+    color: #056571;
+    margin: 0 auto;
+}
+#orStat{
+    margin: 20px 0 0 0;
+}
+#newRecRow {
+    height: 30px;
+}
+.newIng {
+    height: 30px;
+}
+.tabla_newRec_0 {
+    width: 100%;
+}
+.tabla_newRec {
+    width: 100%;
+}
+#colNewUp {
+    margin: auto;
+    width: 50%;
+}
+.newRec {
+    width: 30%;
+}
+#newCol {
+    width: 30%;
+}
+#newIng {
+    height: 30px;
+} 
+#inputNewIng {
+    width: 97%;
+    height: 80%;
+    color: #056571;
+    margin: 0 auto
+}
+#inputNewMD {
+    width: 97%;
+    height: 80%;
+    color: #414141;
+    margin: 0 auto; 
+}
+#camuText {
+    margin: 10px auto 20px auto;
+    font-size: 25px;
+    color: #FF6A5C;
+    font-weight: bold;
+}
+.logBtn {
+    width: 100px;
+}
+
+/* Para "cookIT" -----------------------------------------------------------*/
+.drpdwn1 {
+    position: relative;
+    display: inline-block;
+}
+#dropdownMenu1 {
+    margin: auto; 
+    color: white;
+    border-style: solid;
+    border-color: #CCDFCB;
+    box-shadow: 0px 2px 3px #BBB;
+    background-color: #FF6A5C;
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+}
+#spanCaret {
+    margin: 0 0 0 2px;
+}
+.caret {
+    padding: 1px;
+}
+.dropdown-menu {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    display: none;
+}
+.seldrpdwn {
+    color: #FF6A5C;
+}
+#SelectRecipe {
+    display: inline-block;
+    position: relative;
+}
+.bothSendRec {
+    display: inline-block;
+}
+.btnSendRec {
+    width: 112px;
+    margin: auto;
+}
+.btnSendRec2 {
+    width: 145px;
+    margin: auto;
+}
+.showRecipe {
+    background-color: #414141;
+    margin: 10px 5px; 
+    color: white;
+    padding: 1px 1% 0 1%;
+    border-style: solid;
+    border-color: #CCDFCB;
+    box-shadow: 0px 2px 3px #BBB;
+    display: inline-block;
+}
+#recNumP {
+    color: #414141;
+    margin: 5px;
+}
+
+/* Para "Charts" -----------------------------------------------------------*/
+.chartTitle {
+    font-weight: bold;
+    margin: 0;
+    color: #414141;
+    text-shadow: #CCDFCB 1px 1px 0;
+}
+
+/* Para ShopIt */
+#shopFirstRow {
+    color: white;
+}
+#shopTable {
+    width: 80%;
+    margin: auto;
+    background-color: #414141;
+    padding: 1px 0 0 0;
+    border-style: solid;
+    border-color: #CCDFCB;
+    box-shadow: 0px 2px 3px #BBB;
+}
+
+.shopedQty {
+    color: #414141;
+    width: 100%;
+    text-align: center;
+}
+#shfrIng {
+    width: 23%;
+    text-align: center;
+}
+.ingName {
+    width: 23%;
+}
+#shfrStr {
+    width: 28%;
+    text-align: center;
+}
+.storedIng {
+    width: 13%;
+    text-align: right;
+    padding: 0 1% 0 0;
+}
+.storedUni {
+    width: 15%;
+    text-align: left;
+}
+#shfrBgh {
+    width: 20%;
+    text-align: center;
+}
+.shopedIng {
+    width: 10%;
+}
+/*.shopedUnit {
+    width: 12%;
+    text-align: left;
+    padding: 0 0 0 1%;
+}*/
+.shopedUni {
+    text-align: left;
+    padding: 0 0 0 1%;
+    width: 10%;
+}
+#shfrNee {
+    width: 29%;
+    text-align: center;
+}
+.consIng {
+    width: 14%;
+    text-align: right;
+    padding: 0 2% 0 0;
+}
+.consUni {
+    text-align: left;
+    width: 15%;
+}
+
+
+/* PAra recetas, los typeahead */
+/*#inputNewMD {
+    width: 97%;
+    height: 80%;
+    color: #414141;
+    margin: 0 auto; 
+}
+.inputCarr {
+    width: 97%;
+    height: 80%;
+    color: #056571;
+    margin: 0 auto;
+}
+*/
+/*.tt-query,/* /* UPDATE: newer versions use tt-input instead of tt-query */
+.twitter-typeahead {
+    width: 97%;
+}
+.tt-hint {
+    width: 97%;
+    height: 100%;
+    /*
+    width: 396px;
+    height: 30px;
+    padding: 8px 12px;
+    font-size: 24px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none; 
+    */
+}
+.tt-input {
+    width:100%;
+}
+.tt-dropdown-menu {
+    margin: auto; 
+    color: #414141;
+    border-style: solid;
+    border-color: #CCDFCB;
+    box-shadow: 0px 2px 3px #BBB;
+    background-color: #CCDFCB;
+    font-weight: bold;
+    width:100%;
+}
+
+.tt-query { /* UPDATE: newer versions use tt-input instead of tt-query */
+/*
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    */
+}
+
+.tt-hint {
+    width: 100%;
+    /*
+    color: #999;
+    */
+}
+
+.tt-menu { /* UPDATE: newer versions use tt-menu instead of tt-dropdown-menu */
+/*
+    width: 422px;
+    margin-top: 12px;
+    padding: 8px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    */
+}
+
+.tt-suggestion {
+    
+    
+}
+
+.tt-suggestion.tt-is-under-cursor,.tt-suggestion:hover { /* UPDATE: newer versions use .tt-suggestion.tt-cursor */
+    color: #CCDFCB;
+    background-color: #FF6A5C;
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
+
+
+#apology {
+    color: #CCDFCB;
+}
+
+/* Juego de colores : 
+Teal (como tureuesa) #056571
+Watermelon (color mamey pastel) #FF6A5C
+Fresh (como grisaceo) #CCDFCB
+Matte Como gris oscuro o cafe oscuro) #414141 */

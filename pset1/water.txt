@@ -1,0 +1,4 @@
+Muestra como hacer un conteo suponiendo que cada minuto se gastan 12 botellas de agua
+el usuario ingresa la cantidad de minutos que se baña y el programa hace la multiplicación
+
+es necesaria la libreria de cs50 para acceder a "GetInt()"
